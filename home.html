@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/slide.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/progress.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/pagestyle.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/slide.js"></script>
+    <title>home</title>
+</head>
+<body class="body">
+<div class="panel-body">
+    <aside  class="marginLeft">
+        <nav>
+            <div class="logo">
+                <span>APORTFOLO OF</span>
+            </div>
+            <h1 CLASS="logo">JOEFREY MAHUSAY</h1>
+            <ul>
+                <li class="active"><a href="./home.html" target="_self">HOME</a></li>
+                <li class=""><a href="./work.html" target="_self">WORK</a></li>
+                <li class=""><a href="./about.html" target="_self">ABOUT</a></li>
+                <li class=""><a href="./contact.html"  target="_self">CONTACT</a></li>
+            </ul>
+            <div class="bg_bottom"></div>
+        </nav>
+    </aside>
+    <div class="ps_container">
+        <div class="ribbon"></div>
+        <div class="ck-slide">
+        <ul class="ck-slide-wrapper">
+            <li><img src="images/1.jpg" alt=""></li>
+            <li style="display:none"><img src="images/2.jpg" alt=""></li>
+            <li style="display:none"><img src="images/3.jpg" alt=""></li>
+            <li style="display:none"><img src="images/4.jpg" alt=""></li>
+            <li style="display:none"><img src="images/5.jpg" alt=""></li>
+        </ul>
+            <a href="javascript:;" class="ck-slide ck-prev"></a>
+            <a href="javascript:;" class="ck-slide ck-next"></a>
+        <div class="ck-slidebox">
+        <div class="slideWrap">
+        <ul class="ps_nav">
+            <li class="current"><em>1</em></li>        
+            <li><em>2</em></li>
+            <li><em>3</em></li>
+            <li><em>4</em></li>
+            <li><em>5</em></li>
+        </ul>
+        </div>
+        </div>
+        </div>
+    <script>
+        $('.ck-slide').ckSlide({
+            autoPlay:true
+            /*dir:"x"*/
+        });
+    </script>
+     
+        <div class="divider">
+            <h2>I MAKE BEAUTIFUL WEBSITES</h2>
+        </div>
+        <div class="recent-work">
+            <h2>MY RECENT WORK</h2>
+        </div>
+
+        <div class="columns">
+            <div class="two-column-img">
+                <img src="images/work_1.jpg" alt="">
+            </div>
+            <div class="two-column-img">
+                <img src="images/work_2.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
